@@ -171,9 +171,7 @@ a {
   height: 44px;
   border-radius: 50%;
 }
-.svg2 {
-  fill: yellow;
-}
+
 .mail {
   text-decoration: none;
 }
@@ -751,6 +749,69 @@ address a {
   fill: #afb1b8;
   transition: 250ms;
   transition-timing-function: (0.4, 0, 0.2, 1);
+}
+
+.blok1 {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.ellipse {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+}
+
+.ellipse:hover {
+  background-color: #2196f3;
+}
+
+.ellipse:hover svg {
+  fill: #fff;
+}
+
+.rectangle {
+  width: 170px;
+  height: 92px;
+  border: 3px solid #afb1b8;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangle:hover {
+  border-color: #2196f3;
+}
+
+.loogo {
+  width: 106px;
+  height: 60.04px;
+  fill: #afb1b8;
+}
+
+.svg-lor {
+  width: 70px;
+  height: 70px;
+}
+
+.svg-john {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.blok:hover {
+  border-color: #2196f3;
+}
+
+.blok1 :hover > svg {
+  fill: #2196f3;
 }
 
 .blok {
